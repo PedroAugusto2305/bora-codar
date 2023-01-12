@@ -1,0 +1,101 @@
+:root {
+
+  --bg-color: #1E1E1E;
+  --card-color: #D9CDF7;
+  --text-color: #271A45;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.hide {
+  display: none;
+}
+
+/* Conteúdo */
+.container {
+  position: relative;
+}
+
+.card {
+  width: 54.6875rem;
+  height: 31.25rem;
+  background-color: var(--card-color);
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  display: flex;
+  align-items: center;
+}
+
+.button-360 {
+  margin-left: 22.875rem;
+}
+
+.close-button {
+  margin-left: 22.875rem;
+  width: 2.0625rem;
+  height: 1.4375rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.close-button ion-icon {
+  font-size: 2rem;
+  color: var(--text-color);
+}
+
+.image-animate {
+  width: 449px;
+  height: 253px;
+}
+
+.content-container {
+  width: 17.5625rem;
+  margin-left: .8125rem;
+}
+
+.card-code {
+  color: var(--text-color);
+  font-family: 'Lato';
+  font-size: .625rem;
+  font-weight: normal;
+}
+
+.card-title {
+  color: var(--text-color);
+  font-family: 'Crimson Pro';
+  font-size: 2rem;
+  font-weight: 400;
+  margin: .75rem 0;
+}
+
+.card-price {
+  color: var(--text-color);
+  font-family: 'Lato';
+  font-size: 1rem;
+}
+
+.card-button {
+  color: var(--text-color);
+  width: 9.25rem;
+  height: 2rem;
+  margin: 1.25rem 0;
+  background-color: transparent;
+  border: 1px solid var(--text-color);
+  border-radius: 9rem;
+  font-family: 'Lato';
+  font-size: .75rem;
+  font-weight: 400;
+}
