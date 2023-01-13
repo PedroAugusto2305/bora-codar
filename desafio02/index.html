@@ -20,21 +20,27 @@
       <section class="container">
         <div class="card">
           <div class="image-container">
-            <div class="button-360">
-              <a href=""><img src="/assets/images/button-360.svg" alt="" /></a>
+            <div id="button-360">
+              <button>
+                <img src="/assets/images/button-360.svg" alt="" />
+              </button>
             </div>
-            <!-- <a href="" class="close-button">
-              <ion-icon name="close-outline"></ion-icon>
-            </a> -->
+
+            <div id="close-button" class="hide">
+              <button>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
             <img
               src="/assets/images/sofa-image.png"
               alt="sofa image"
-              class="image-static"
+              id="image-static"
             />
             <img
               src="/assets/images/sofa-animate.gif"
               alt="sofa image"
-              class="image-animate hide"
+              id="image-animate"
+              class="hide"
             />
           </div>
 
@@ -55,6 +61,6 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/index.js"></script>
   </body>
 </html>

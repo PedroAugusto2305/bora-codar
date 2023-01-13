@@ -18,6 +18,7 @@ body {
 
 .hide {
   display: none;
+
 }
 
 /* Conteúdo */
@@ -38,25 +39,37 @@ body {
   align-items: center;
 }
 
-.button-360 {
-  margin-left: 22.875rem;
-}
-
-.close-button {
+#button-360 button {
+  position: absolute;
   margin-left: 22.875rem;
   width: 2.0625rem;
-  height: 1.4375rem;
+  height: 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+
+#close-button button {
+  margin-left: 22.875rem;
+  width: 2.0625rem;
+  height: 2rem;
   display: flex;
   align-items: center;
   cursor: pointer;
+  position: fixed;
+  z-index: 5;
+  background-color: transparent;
+  border: none;
 }
 
-.close-button ion-icon {
+#close-button ion-icon {
   font-size: 2rem;
   color: var(--text-color);
 }
 
-.image-animate {
+#image-animate {
   width: 449px;
   height: 253px;
 }
